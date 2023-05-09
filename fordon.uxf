@@ -1,0 +1,39 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>650</x><y>40</y><w>100</w><h>170</h></coordinates><panel_attributes>fordon
+--
+fabrikat:str
+color:str
+--
+_init_construktor
+set_fabrikat(str)
+set_color(str)
+get_fabrikat()str
+get_color()str
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>570</x><y>420</y><w>310</w><h>210</h></coordinates><panel_attributes>prsonbil
+-- 
+fabrikat:str
+color:str
+bagagevolym:init
+--
+_init_construktor(fabrikat, color, bagagevolym)
+set_bagagevolym(init)
+get_bagagevolym():int
+print_fordon()
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>220</x><y>430</y><w>270</w><h>180</h></coordinates><panel_attributes>lastbil
+--
+fabrikat:str
+color:str
+flakvolym:int
+--
+_int_constructor(fabrikat, color, flakvolym)
+set_flakvolym(int)
+get_flakvolym():int
+print_fordon()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>90</x><y>50</y><w>220</w><h>250</h></coordinates><panel_attributes>main.py
+--
+lopping:boolean
+personbils_lista(personbil)
+lastbils_lista(lastbil)
+--
+main()
+print-fordons_lista()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>200</y><w>300</w><h>250</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>280;10;10;230</additional_attributes></element><element><id>Relation</id><coordinates><x>730</x><y>200</y><w>30</w><h>240</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;220</additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>290</y><w>110</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;90;140</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>290</y><w>290</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;270;130</additional_attributes></element></diagram>
